@@ -32,6 +32,7 @@
     [_p ZHOU_addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
     
     NSLog(@"哈哈哈哈pr");
+    NSLog(@"prprprprp");
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
