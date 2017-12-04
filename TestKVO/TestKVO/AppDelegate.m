@@ -10,15 +10,6 @@
 
 @interface AppDelegate ()
 
-
-
-
-
-
-
-
-
-
 @end
 
 @implementation AppDelegate
