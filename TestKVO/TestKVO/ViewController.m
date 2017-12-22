@@ -20,8 +20,6 @@
 
 @implementation ViewController
 
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     _p = [[Person alloc] init];
