@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8441497E1FE3AFEC00D67F84 /* TestKVO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestKVO.entitlements; sourceTree = "<group>"; };
 		9849DEF591EE6BF499C69236 /* Pods-TestKVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKVO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKVO/Pods-TestKVO.debug.xcconfig"; sourceTree = "<group>"; };
 		B74F067CC269335B1D8D5268 /* Pods_TestKVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C978D660FFBB0AA1FE8B527B /* Pods-TestKVO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKVO.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKVO/Pods-TestKVO.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +124,7 @@
 		E7DDDE7D1FCD31E800192BF2 /* TestKVO */ = {
 			isa = PBXGroup;
 			children = (
+				8441497E1FE3AFEC00D67F84 /* TestKVO.entitlements */,
 				E7DDDE7E1FCD31E800192BF2 /* AppDelegate.h */,
 				E7DDDE7F1FCD31E900192BF2 /* AppDelegate.m */,
 				E7DDDE811FCD31E900192BF2 /* ViewController.h */,
@@ -237,6 +239,11 @@
 					E7DDDE7A1FCD31E700192BF2 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					E7DDDE921FCD31EC00192BF2 = {
 						CreatedOnToolsVersion = 9.0;
